@@ -15,7 +15,6 @@ HEADERS += src/gpsdatasource.h \
 
 OTHER_FILES += qml/harbour-bootyhunter.qml \
     qml/cover/CoverPage.qml \
-    rpm/harbour-bootyhunter.changes.in \
     rpm/harbour-bootyhunter.spec \
     rpm/harbour-bootyhunter.yaml \
     translations/*.ts \
@@ -48,4 +47,5 @@ DISTFILES += \
     qml/pages/OAuthPage.qml \
     harbour-bootyhunter-logo.png \
     qml/img/cache-icon.png \
-    qml/pages/ErrorPage.qml
+    qml/pages/ErrorPage.qml \
+    rpm/harbour-bootyhunter.changes
