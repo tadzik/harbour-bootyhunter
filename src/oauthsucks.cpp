@@ -55,6 +55,12 @@ OAuthSucks::OAuthSucks()
     services->value("opencaching.ro")->append(OPENCACHING_RO_KEY);
     services->value("opencaching.ro")->append(OPENCACHING_RO_SEC);
 #endif
+#ifdef OPENCACHE_UK_KEY
+    services->insert("opencache.uk", new QList<QString>());
+    services->value("opencache.uk")->append("http://opencache.uk/okapi/services/");
+    services->value("opencache.uk")->append(OPENCACHE_UK_KEY);
+    services->value("opencache.uk")->append(OPENCACHE_UK_SEC);
+#endif
 }
 
 QObject* OAuthSucks::get_service_for(QString id)

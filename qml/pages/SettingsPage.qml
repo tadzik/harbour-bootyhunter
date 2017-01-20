@@ -11,6 +11,7 @@ Page {
         ListElement { service_id: "opencaching.us"; authorized: false }
         ListElement { service_id: "opencaching.nl"; authorized: false }
         ListElement { service_id: "opencaching.ro"; authorized: false }
+        ListElement { service_id: "opencache.uk";   authorized: false }
     }
 
     SilicaListView {
