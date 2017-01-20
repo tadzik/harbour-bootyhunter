@@ -1,0 +1,11 @@
+# Add new changelog entries following the format below.
+# Add newest entries to the top of the list.
+# Separate entries from eachother with a blank line.
+
+# * date Author's Name <author's email> version-release
+# - Summary of changes
+
+* Fri 20 Jan 01:47:38 CET 2017 Tadeusz Sośnierz <tadeusz@sosnierz.com> 0.0.2-1
+- Added support for opencache.uk
+
+
