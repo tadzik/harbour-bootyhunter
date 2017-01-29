@@ -45,13 +45,13 @@ OAuthSucks::OAuthSucks()
 #endif
 #ifdef OPENCACHING_NL_KEY
     services->insert("opencaching.nl", new QList<QString>());
-    services->value("opencaching.nl")->append("http://opencaching.nl/okapi/services/");
+    services->value("opencaching.nl")->append("http://www.opencaching.nl/okapi/services/");
     services->value("opencaching.nl")->append(OPENCACHING_NL_KEY);
     services->value("opencaching.nl")->append(OPENCACHING_NL_SEC);
 #endif
 #ifdef OPENCACHING_RO_KEY
     services->insert("opencaching.ro", new QList<QString>());
-    services->value("opencaching.ro")->append("http://opencaching.ro/okapi/services/");
+    services->value("opencaching.ro")->append("http://www.opencaching.ro/okapi/services/");
     services->value("opencaching.ro")->append(OPENCACHING_RO_KEY);
     services->value("opencaching.ro")->append(OPENCACHING_RO_SEC);
 #endif

@@ -11,7 +11,7 @@ SOURCES += src/harbour-bootyhunter.cpp \
 
 HEADERS += src/gpsdatasource.h \
            src/oauthsucks.h \
-    src/oauthkeys.h
+           src/oauthkeys.h
 
 OTHER_FILES += qml/harbour-bootyhunter.qml \
     qml/cover/CoverPage.qml \

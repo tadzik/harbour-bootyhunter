@@ -5,7 +5,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Fri 20 Jan 01:47:38 CET 2017 Tadeusz Sośnierz <tadeusz@sosnierz.com> 0.0.2-1
+* Sun Jan 29 2017 Tadeusz Sośnierz <tadeusz@sosnierz.com> 0.0.3-1
+- Fix opencaching.nl and opencaching.ro's urls (thanks mattikbk!)
+
+
+* Fri Jan 20 2017 Tadeusz Sośnierz <tadeusz@sosnierz.com> 0.0.2-1
 - Added support for opencache.uk
-
-
